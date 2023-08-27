@@ -4,7 +4,7 @@ The quasi-periodic spatiotemporal pattern of signal changes is one prominent fea
 # Table of Contents
 * 1 - [Prerequisite](#section-1)
     * 1.1 [Software dependencies](#section-1-1)    
-    * 1.2 [Input File (./input/)](#section-1-2)
+    * 1.2 [Input File (./input/`data`.mat)](#section-1-2)
       * 1.2.1 -[Input variables in `data`.mat](#section-1-2-1)
       * 1.2.2 -[(optional step) Run 'st0_ROIreOrg.m' for variable generations](#section-1-2-2)        
 * 2 - [Main Pipeline](#section-2)
