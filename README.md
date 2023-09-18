@@ -53,7 +53,7 @@ The following parameters need to be prespecified before running the script. A pa
 |  Filepath  		|`data`   | the input filename |The input should has the filename `data`.mat |
 |    	|`ext`    | the parameter filename extension | The parameter filename will be  Params_`data`\_`ext`.mat |
 |  QPP global parameters|`nP`     | total # of QPPs to detect (nP<=5) | If nP=1, only detect the primary QPP (QPP1); if nP=2, detect both QPP1 & QPP2; etc. |
-|	 	|`PL`     | a (nP X 1) vector of QPP window length | ~20s for humans (e.g., PL(ip)=20/TR) (Majeed et al., 2011; Yousefi et al., 2018), ~10s in adult mice (Belloy, Naeyaert, et al., 2018) and ~16s in adult rats (Majeed et al., 2011). |
+|	 	|`PL`     | a (nP X 1) vector of QPP window length | The QPP wavelength is ~20s for humans (e.g., PL(ip)=20/TR) (e.g., Yousefi et al., 2018), ~10s in adult mice (Belloy, Naeyaert, et al., 2018) and ~16s in adult rats (Majeed et al., 2011). |
 |  QPP detection	parameters |`cth13` & `cth45`     | a 2D vector of correlation threshold for QPP1-QPP3 (`cth13`) & for QPP4-QPP5 (`cth45`)| If you do not need to detect QPP4-QPP5, please assign `cth45` a random number (e.g., `cth45`=[0, 0]).|
 |  QPP phase adjustment	parameters|`cthph` | similarity threshold when phase-adjusting (phadj) a QPP |Default value: cthph=0.88|
 |	 	|`s`     | control for strict phase adjustment (`s`=1) or relaxed phase adjustment (`s`=0)||
